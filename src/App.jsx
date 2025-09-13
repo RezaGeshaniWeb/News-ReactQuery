@@ -37,6 +37,10 @@ export default function App() {
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
+
+      <footer className="bg-gray-200 p-3 text-gray-800 text-center">
+        Developed By <em>Reza Geshani</em>
+      </footer>
     </div>
   );
 }
