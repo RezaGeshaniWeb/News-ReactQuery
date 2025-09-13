@@ -6,14 +6,14 @@ export default function Favorites() {
 
     if (favorites.length === 0) {
         return (
-            <p className="text-gray-500 text-center mt-10">
+            <p className="text-gray-500 text-center mt-10 min-h-screen">
                 No favorites yet. Start adding some news to your list!
             </p>
         );
     }
 
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 min-h-screen">
             <h2 className="text-2xl font-bold border-b border-gray-200 pb-2">
                 My Favorites
             </h2>
@@ -24,4 +24,5 @@ export default function Favorites() {
             </div>
         </div>
     )
+
 }
