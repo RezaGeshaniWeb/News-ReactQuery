@@ -6,7 +6,7 @@
 
 - Created - 2025-09-12
 
-- Technologies Used - TailwindCSS , Axios , React , ReactQuery                                   
+- Technologies Used - TailwindCSS , Axios , React , ReactQuery                                          
 
 - Role - Frontend
 
